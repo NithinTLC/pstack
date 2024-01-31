@@ -28,11 +28,12 @@ sudo setenforce 0
 echo "1" | sudo packstack --allinone
 
 
-# echo " ***     **  ::  ::::::::::::  **       **  ::  ***     **  "
-# echo " ****    **  **       **       **       **  **  ****    **  "
-# echo " **  **  **  **       **       **:::::::**  **  **  **  **  "
-# echo " **   ** **  **       **       **       **  **  **   ** **  "
-# echo " **    ****  **       **       **       **  **  **    ****  "
+echo " ***     **  ::  ::::::::::::  **       **  ::  ***     **  "
+echo " ****    **  **       **       **       **  **  ****    **  "
+echo " **  **  **  **       **       **:::::::**  **  **  **  **  "
+echo " **   ** **  **       **       **       **  **  **   ** **  "
+echo " **    ****  **       **       **       **  **  **    ****  "
 
-echo "🚀 OpenStack setup completed successfully using Packstack by Nithin's Bash script! 🎉"
-echo "🌐 Enjoy exploring the capabilities of your new OpenStack environment! 🚀"
+echo "🚀 OpenStack ☁️☁️☁️ setup completed using Packstack by 🤖🤖Nithin's Bash script! 🎉"
+echo " 👽👽Installtion is done✅"
+echo "🟢🟢😊😊😊😊😊😊😊🟢🟢"
