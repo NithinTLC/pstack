@@ -21,5 +21,8 @@ sudo dnf install -y centos-release-openstack-yoga
 sudo dnf update -y
 sudo dnf install -y openstack-packstack
 
+# disble the selinux
+setenforce 0
+
 # Run Packstack to set up OpenStack (password is set to '1' if prompted)
 echo "1" | sudo packstack --allinone
