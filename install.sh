@@ -26,3 +26,13 @@ setenforce 0
 
 # Run Packstack to set up OpenStack (password is set to '1' if prompted)
 echo "1" | sudo packstack --allinone
+
+
+# echo " ***     **  ::  ::::::::::::  **       **  ::  ***     **  "
+# echo " ****    **  **       **       **       **  **  ****    **  "
+# echo " **  **  **  **       **       **:::::::**  **  **  **  **  "
+# echo " **   ** **  **       **       **       **  **  **   ** **  "
+# echo " **    ****  **       **       **       **  **  **    ****  "
+
+echo "🚀 OpenStack setup completed successfully using Packstack by Nithin's Bash script! 🎉"
+echo "🌐 Enjoy exploring the capabilities of your new OpenStack environment! 🚀"
