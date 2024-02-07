@@ -25,7 +25,8 @@ sudo dnf install -y openstack-packstack
 sudo setenforce 0
 
 # Run Packstack to set up OpenStack (password is set to '1' if prompted)
-echo "1" | sudo packstack --allinone
+#echo "1" | sudo packstack --allinone
+packstack --allinone --os-neutron-l2-agent=openvswitch --os-neutron-ml2-mechanism-drivers=openvswitch --os-neutron-ml2-tenant-network-types=vxlan --os-neutron-ml2-type-drivers=vxlan,flat --provision-demo=n --os-neutron-ovs-bridge-mappings=extnet:br-ex --os-neutron-ovs-bridge-interfaces=br-ex:enp0s3
 
 
 echo " ***     **  ::  ::::::::::::  **       **  ::  ***     **  "
